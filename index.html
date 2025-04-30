@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Matematika</title>
+    <link rel="stylesheet" href="styleww.css">
+</head>
+<body>
+    <div class="name-input-container">
+        <h1>Quiz Matematika</h1>
+        <label for="name">Masukkan Nama Anda:</label>
+        <input type="text" id="name" placeholder="Nama Anda">
+        <button id="start-quiz-button">Start Quiz</button>
+    </div>
+    
+    <div class="container hide">
+        <h1> Quiz Matematika</h1>
+        <div id="question-container"> 
+            <p id="question"></p>
+            <div id="answer-buttons">
+                <button class="answer-btn">A</button>
+                <button class="answer-btn">B</button>
+                <button class="answer-btn">C</button>
+                <button class="answer-btn">D</button>
+            </div>
+        </div>
+        <div id="result-container" class="hide">
+            <h2>Result!</h2>
+            <p id="score"></p>
+            <button id="restart-btn">Try Again</button>
+        </div>
+        <button id="next-btn" class="next-btn hide">Next Questions</button>
+    </div>
+    <script src="scriptt.js"></script>
+</body>
+</html>
